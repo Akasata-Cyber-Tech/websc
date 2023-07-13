@@ -33,6 +33,7 @@ service('auth')->routes($routes);
 $routes->get('/', 'Home::index');
 $routes->get('Assets', 'AssetsController::index');
 $routes->get('Users', 'UsersController::index');
+$routes->get('DataPermission', 'DataPermissionsController::index');
 
 
 /*
