@@ -11,8 +11,8 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Auth');
-$routes->setDefaultMethod('loginView');
+$routes->setDefaultController('Dashboard');
+$routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
@@ -31,7 +31,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 service('auth')->routes($routes);
 $routes->get('/', 'Home::index');
-
+$routes->get('Assets', 'AssetsController::index');
+$routes->get('Users', 'UsersController::index');
 
 
 /*

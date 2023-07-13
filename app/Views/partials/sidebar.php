@@ -52,7 +52,7 @@
 						</a>
 					</div>
                     <div class="menu-item ">
-						<a href="bootstrap_5.html" class="menu-link">
+						<a href="<?php echo site_url('Assets') ?>" class="menu-link">
 							<div class="menu-icon-img">
 								<img src="../assets/img/logo/logo-bs5.png" alt="" />
 							</div>
@@ -62,7 +62,7 @@
                     
                     <div class="menu-header">Contol Panel</div>
                     <div class="menu-item ">
-						<a href="bootstrap_5.html" class="menu-link">
+						<a href="<?php echo site_url('Users') ?>" class="menu-link">
 							<div class="menu-icon-img">
 								<img src="../assets/img/logo/logo-bs5.png" alt="" />
 							</div>
@@ -70,7 +70,7 @@
 						</a>
 					</div>
                     <div class="menu-item ">
-						<a href="bootstrap_5.html" class="menu-link">
+						<a href="<?php echo site_url('Data_Permisiions') ?>" class="menu-link">
 							<div class="menu-icon-img">
 								<img src="../assets/img/logo/logo-bs5.png" alt="" />
 							</div>
@@ -78,7 +78,7 @@
 						</a>
 					</div>
                     <div class="menu-item ">
-						<a href="bootstrap_5.html" class="menu-link">
+						<a href="<?php echo site_url('Roles') ?>" class="menu-link">
 							<div class="menu-icon-img">
 								<img src="../assets/img/logo/logo-bs5.png" alt="" />
 							</div>
