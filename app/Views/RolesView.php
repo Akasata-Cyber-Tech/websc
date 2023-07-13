@@ -16,7 +16,7 @@
 	</ol>
 	<!-- END breadcrumb -->
 	<!-- BEGIN page-header -->
-	<h1 class="page-header mt-2">Permission Manager</h1>
+	<h1 class="page-header mt-2">Roles Manager</h1>
 	<!-- END page-header -->
 	<!-- table  -->
 	<div class="row">
@@ -27,10 +27,10 @@
 						<th>
 							#
 						</th>
-						<th> Permission Name </th>
-						<th> Rules </th>
+						<th> Roles Name </th>
+						<th> Roles Source</th>
 						<th> Description</th>
-						<th> Read </th>
+						<th class=""> Read </th>
 						<th> Write </th>
 						<th> Update </th>
 						<th> Delete </th>
@@ -48,8 +48,8 @@
 						<td>
 							1
 						</td>
-						<td> Full Control </td>
-						<td> main.permission.fctrl</td>
+						<td> Admin</td>
+						<td> main.roles.admin</td>
 						<td>
 							Call in to confirm
 						</td>
@@ -64,8 +64,8 @@
 						<td>
 							1
 						</td>
-						<td> Read &amp; Execute </td>
-						<td> main.permission.rxe</td>
+						<td> Guest </td>
+						<td> main.roles.guest</td>
 						<td>
 							Call in to confirm
 						</td>
@@ -80,8 +80,8 @@
 						<td>
 							1
 						</td>
-						<td> List Folder Contents </td>
-						<td> main.permission.lstfldr</td>
+						<td> Moderator </td>
+						<td> main.roles.0x001</td>
 						<td>
 							Call in to confirm
 						</td>
@@ -96,8 +96,8 @@
 						<td>
 							1
 						</td>
-						<td> Read </td>
-						<td> main.permission.read</td>
+						<td> Viewer </td>
+						<td> main.roles.0x002</td>
 						<td>
 							Call in to confirm
 						</td>
@@ -112,8 +112,8 @@
 						<td>
 							1
 						</td>
-						<td> Modify </td>
-						<td> main.permission.modify </td>
+						<td> Editor </td>
+						<td> main.roles.0x003 </td>
 						<td>
 							Call in to confirm
 						</td>
@@ -124,38 +124,8 @@
 						<td>13/01/2021</td>
 						<td>13/07/2023</td>
 					</tr>
-					<tr class="">
-						<td>
-							1
-						</td>
-						<td> Write </td>
-						<td> main.permission.write</td>
-						<td>
-							Call in to confirm
-						</td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td>01/01/2013</td>
-						<td>13/07/2023</td>
-					</tr>
-					<tr class="table-active">
-						<td>
-							1
-						</td>
-						<td> Special Permission </td>
-						<td> main.permission.spclprmsn</td>
-						<td>
-							Call in to confirm
-						</td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td><input type="checkbox"> </td>
-						<td>05/05/2000</td>
-						<td>13/07/2023</td>
-					</tr>
+					
+					
 				</tbody>
 			</table>
 			<button type="button" class="btn btn-md btn-primary float-end">
