@@ -102,7 +102,7 @@
 						<a href="calendar.html" class="dropdown-item">Calendar</a>
 						<a href="settings.html" class="dropdown-item">Settings</a>
 						<div class="dropdown-divider"></div>
-						<a href="login.html" class="dropdown-item">Log Out</a>
+						<a href="<?= url_to('logout') ?>" class="dropdown-item">Log Out</a>
 					</div>
 				</div>
 			</div>
