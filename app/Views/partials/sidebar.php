@@ -70,7 +70,7 @@
 						</a>
 					</div>
                     <div class="menu-item ">
-						<a href="<?php echo site_url('Data_Permisiions') ?>" class="menu-link">
+						<a href="<?php echo site_url('DataPermission') ?>" class="menu-link">
 							<div class="menu-icon-img">
 								<img src="../assets/img/logo/logo-bs5.png" alt="" />
 							</div>
