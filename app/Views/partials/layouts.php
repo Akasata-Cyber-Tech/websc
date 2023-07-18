@@ -19,6 +19,21 @@
 	<link href="<?= base_url('../assets/plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css'); ?>" rel="stylesheet" />
 	<link href="<?= base_url('../assets/plugins/gritter/css/jquery.gritter.css'); ?>" rel="stylesheet" />
 	<!-- ================== END page-css ================== -->
+
+	<!-- ================== BEGIN Plugin JS ================== -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.18/sweetalert2.all.min.js" integrity="sha512-mDxZdt7RiIHE1Lu4T6XmSi+jJJO+uD0gTnm2f75pQhKphTdnAeHdEPomsgXWuCnSt3rEp9MOPpttFyhG8yo6vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="<?= base_url('../assets/plugins/ionicons/dist/ionicons/ionicons.js'); ?>"></script>
+
+	<!-- ================== END Plugin JS ================== -->
+
+
+	<!-- ================== BEGIN Plugin CSS ================== -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.18/sweetalert2.min.css" integrity="sha512-yX1R8uWi11xPfY7HDg7rkLL/9F1jq8Hyiz8qF4DV2nedX4IVl7ruR2+h3TFceHIcT5Oq7ooKi09UZbI39B7ylw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- ================== END Plugin CSS ================== -->
+
 </head>
 
 <body class="bg-light">
