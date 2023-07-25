@@ -58,6 +58,83 @@
             "install-path": "../codeigniter/coding-standard"
         },
         {
+            "name": "codeigniter4/framework",
+            "version": "v4.3.6",
+            "version_normalized": "4.3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeigniter4/framework.git",
+                "reference": "e3921233a20daf05ae9d2b50ca41ce97748e1d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/e3921233a20daf05ae9d2b50ca41ce97748e1d6d",
+                "reference": "e3921233a20daf05ae9d2b50ca41ce97748e1d6d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "laminas/laminas-escaper": "^2.9",
+                "php": "^7.4 || ^8.0",
+                "psr/log": "^1.1"
+            },
+            "require-dev": {
+                "codeigniter/coding-standard": "^1.5",
+                "fakerphp/faker": "^1.9",
+                "friendsofphp/php-cs-fixer": "3.13.0",
+                "kint-php/kint": "^5.0.4",
+                "mikey179/vfsstream": "^1.6",
+                "nexusphp/cs-config": "^3.6",
+                "phpunit/phpunit": "^9.1",
+                "predis/predis": "^1.1 || ^2.0"
+            },
+            "suggest": {
+                "ext-curl": "If you use CURLRequest class",
+                "ext-dom": "If you use TestResponse",
+                "ext-exif": "If you run Image class tests",
+                "ext-fileinfo": "Improves mime type detection for files",
+                "ext-gd": "If you use Image class GDHandler",
+                "ext-imagick": "If you use Image class ImageMagickHandler",
+                "ext-libxml": "If you use TestResponse",
+                "ext-memcache": "If you use Cache class MemcachedHandler with Memcache",
+                "ext-memcached": "If you use Cache class MemcachedHandler with Memcached",
+                "ext-mysqli": "If you use MySQL",
+                "ext-oci8": "If you use Oracle Database",
+                "ext-pgsql": "If you use PostgreSQL",
+                "ext-readline": "Improves CLI::input() usability",
+                "ext-redis": "If you use Cache class RedisHandler",
+                "ext-simplexml": "If you format XML",
+                "ext-sqlite3": "If you use SQLite3",
+                "ext-sqlsrv": "If you use SQL Server",
+                "ext-xdebug": "If you use CIUnitTestCase::assertHeaderEmitted()"
+            },
+            "time": "2023-06-17T23:13:38+00:00",
+            "type": "project",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CodeIgniter\\": "system/"
+                },
+                "exclude-from-classmap": [
+                    "**/Database/Migrations/**"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The CodeIgniter framework v4",
+            "homepage": "https://codeigniter.com",
+            "support": {
+                "forum": "https://forum.codeigniter.com/",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/codeigniter4/CodeIgniter4"
+            },
+            "install-path": "../codeigniter4/framework"
+        },
+        {
             "name": "codeigniter4/settings",
             "version": "v2.1.2",
             "version_normalized": "2.1.2.0",
@@ -863,6 +940,69 @@
                 }
             ],
             "install-path": "../friendsofphp/php-cs-fixer"
+        },
+        {
+            "name": "greenlion/php-sql-parser",
+            "version": "v4.6.0",
+            "version_normalized": "4.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greenlion/PHP-SQL-Parser.git",
+                "reference": "f0e4645eb1612f0a295e3d35bda4c7740ae8c366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greenlion/PHP-SQL-Parser/zipball/f0e4645eb1612f0a295e3d35bda4c7740ae8c366",
+                "reference": "f0e4645eb1612f0a295e3d35bda4c7740ae8c366",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "analog/analog": "^1.0.6",
+                "phpunit/phpunit": "^9.5.13",
+                "squizlabs/php_codesniffer": "^1.5.1"
+            },
+            "time": "2023-03-09T20:54:23+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "PHPSQLParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Swanhart",
+                    "email": "greenlion@gmail.com",
+                    "homepage": "http://code.google.com/u/greenlion@gmail.com/",
+                    "role": "Owner"
+                },
+                {
+                    "name": "André Rothe",
+                    "email": "phosco@gmx.de",
+                    "homepage": "https://www.phosco.info",
+                    "role": "Committer"
+                }
+            ],
+            "description": "A pure PHP SQL (non validating) parser w/ focus on MySQL dialect of SQL",
+            "homepage": "https://github.com/greenlion/PHP-SQL-Parser",
+            "keywords": [
+                "creator",
+                "mysql",
+                "parser",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/greenlion/PHP-SQL-Parser/issues",
+                "source": "https://github.com/greenlion/PHP-SQL-Parser"
+            },
+            "install-path": "../greenlion/php-sql-parser"
         },
         {
             "name": "kint-php/kint",
@@ -4480,6 +4620,122 @@
                 }
             ],
             "install-path": "../theseer/tokenizer"
+        },
+        {
+            "name": "twitter/bootstrap",
+            "version": "v5.3.0",
+            "version_normalized": "5.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "60098ac499d30aa50575b0b7137391c06ef25429"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/60098ac499d30aa50575b0b7137391c06ef25429",
+                "reference": "60098ac499d30aa50575b0b7137391c06ef25429",
+                "shasum": ""
+            },
+            "time": "2023-05-30T15:15:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.0"
+            },
+            "install-path": "../twitter/bootstrap"
+        },
+        {
+            "name": "wenzhixin/bootstrap-table",
+            "version": "1.22.1",
+            "version_normalized": "1.22.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wenzhixin/bootstrap-table.git",
+                "reference": "0d94c462f432a99bc5dafe4b350e683cd4afeeb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wenzhixin/bootstrap-table/zipball/0d94c462f432a99bc5dafe4b350e683cd4afeeb1",
+                "reference": "0d94c462f432a99bc5dafe4b350e683cd4afeeb1",
+                "shasum": ""
+            },
+            "require": {
+                "twitter/bootstrap": ">=2.3.0"
+            },
+            "time": "2023-07-06T00:38:26+00:00",
+            "type": "component",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wenzhixin2010",
+                    "email": "wenzhixin2010@gmail.com"
+                }
+            ],
+            "description": "An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)",
+            "homepage": "https://github.com/wenzhixin/bootstrap-table",
+            "keywords": [
+                "CSS-Framework",
+                "bootstrap",
+                "bulma",
+                "checkbox",
+                "css",
+                "datatables",
+                "foundation",
+                "material",
+                "material-design",
+                "materialize",
+                "pagination",
+                "radio",
+                "semantic",
+                "semantic-ui",
+                "table"
+            ],
+            "support": {
+                "issues": "https://github.com/wenzhixin/bootstrap-table/issues",
+                "source": "https://github.com/wenzhixin/bootstrap-table/tree/1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/wenzhixin",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/bootstrap-table",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../wenzhixin/bootstrap-table"
         }
     ],
     "dev": true,

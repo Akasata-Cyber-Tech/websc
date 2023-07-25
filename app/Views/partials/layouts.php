@@ -74,5 +74,9 @@
 	<script src="../assets/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
 	<script src="../assets/js/demo/dashboard.js"></script>
 	<!-- ================== END page-js ================== -->
+
+	<!-- Data Tables -->
+	
+		
 </body>
 </html>

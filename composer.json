@@ -1,17 +1,21 @@
 {
-    "name": "codeigniter4/framework",
+    "name": "codeigniter4/appstarter",
     "type": "project",
     "description": "The CodeIgniter framework v4",
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.3 || ^8.0",
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "codeigniter4/framework": "^4.0",
         "codeigniter4/shield": "^1.0@beta",
+        "greenlion/php-sql-parser": "^4.6",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "twitter/bootstrap": "^5.3",
+        "wenzhixin/bootstrap-table": "^1.22"
     },
     "require-dev": {
         "kint-php/kint": "^5.0.4",
