@@ -35,6 +35,7 @@ $routes->get('Assets', 'AssetsController::index');
 $routes->get('Users', 'UsersController::index');
 $routes->get('DataPermission', 'DataPermissionsController::index');
 $routes->get('Roles', 'RolesController::index');
+$routes->get('Asset', 'AssetController::index');
 
 
 

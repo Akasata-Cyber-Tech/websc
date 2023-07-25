@@ -44,5 +44,5 @@ return array(
     'CodeIgniter\\Shield\\' => array($vendorDir . '/codeigniter4/shield/src'),
     'CodeIgniter\\Settings\\' => array($vendorDir . '/codeigniter4/settings/src'),
     'CodeIgniter\\CodingStandard\\' => array($vendorDir . '/codeigniter/coding-standard/src'),
-    'CodeIgniter\\' => array($baseDir . '/system'),
+    'CodeIgniter\\' => array($baseDir . '/system', $vendorDir . '/codeigniter4/framework/system'),
 );
